@@ -1,9 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+
 
 body, html{
-	font-family: 'Muli', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: #525252;
@@ -11,14 +9,12 @@ body, html{
 }
 
 h1 strong{
-	font-weight: 600;
-	font-family: 'Muli', sans-serif;
+	font-weight: 700;
 
 }
 h2{
 	line-height: 20px;
 	margin:  0;
-	font-family: 'Muli', sans-serif;
 	font-weight: 500;
 }
 h3{
@@ -91,20 +87,19 @@ h5{
 
 }
 p{
-	font-family: 'Muli', sans-serif;
+
 	opacity: 0.8;
 	font-weight: 300;
 	line-height: 2;
 	font-size: 16px;
-	color: #525252;
+	color: #637381;
 }
 
 p.intro{
 	font-size: 16px;
 	font-weight:300;
 	line-height: 2;
-	font-family: 'Muli', sans-serif;
-	color: #525252;
+	color: #637381;
 }
 
 
@@ -340,7 +335,7 @@ letter-spacing: 0.8px;
 
 .vertical-speaker-text-line{
 border-bottom-style: solid;
-border-bottom-width: 2px;
+border-bottom-width: 1px;
 border-bottom-color: #9f9aff;
 width: 20px;
 height: 5px;
@@ -355,7 +350,6 @@ margin-left: 20px;
 -webkit-transform: rotateZ(90deg);
 transform-origin: bottom left;
 -webkit-transform-origin: bottom left;
-font-family: TradeGothicCondensed20, sans-serif;
 font-size: 1.1rem;
 letter-spacing: .025rem;
 text-align: left;
@@ -373,7 +367,7 @@ margin-top: 112px;
 .back-text {   
   color: #eef2f6;
   text-align: center;
-  font-size: 200px; 
+  font-size: 184px; 
   font-weight: 700;
   letter-spacing: -2px;
   position: absolute;
@@ -509,7 +503,6 @@ ul.about-list li{
 	display: block;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Muli', sans-serif;
 }
 ul.about-list li span{ 
 	margin-right: 10px;
@@ -1002,7 +995,6 @@ label {
 	float: left;
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Muli', sans-serif;
 }
 #tf-contact .form-control {
 	display: block;
