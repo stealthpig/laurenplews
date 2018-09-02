@@ -46,6 +46,14 @@ margin-bottom: 45px;
 }
 
 
+.gif-centered {
+	margin: 0 auto;
+}
+
+.text-left {
+	text-align: left;
+}
+
 
 .period p {
 	font-size: 12px;
@@ -103,6 +111,8 @@ p.intro{
 }
 
 
+
+
 a{ color: #9f9aff;}
 a:hover,
 a:focus{
@@ -129,9 +139,12 @@ a:focus{
 * html .clearfix { height: 1%; }
 .clearfix { display: block; }
 ul, ol{
-	padding: 0;
+	padding-left: 20px;
 	webkit-padding: 0;
 	moz-padding: 0;
+	 color: #637381;
+    font-weight: 300;
+    line-height: 2;
 }
 /* Navigation */
 #tf-menu {
